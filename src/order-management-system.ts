@@ -14,8 +14,6 @@ export class OrderManagementSystem {
 
 		order.printOrder();
 
-		// OrderManagementSystem.generateInvoice(order);
-
 		const orderSummary = order.getOrderSummary();
 		OrderManagementSystem.generateInvoice(orderSummary);
 	}
